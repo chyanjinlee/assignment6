@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a445b05121.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+          <style>
+            body {
+              font-family: 'Lato', serif;
+              font-size: 30px;
+              color: rgb(229, 255, 0);
+              text-shadow: 4px 4px 4px #aaa;
+            }
+          </style>
+    <title>Reviews</title>
+</head>
+<body>
+    <i class="fa-solid fa-right-to-bracket"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <main>
+        <section class="container">
+            <!-- Title -->
+            <div class="title">
+                <h2>Welcome to Robbin's Shop</h2>
+                <div class="underline"></div>
+            </div>
+
+            <!-- Review -->
+            <article class="review">
+                <div class="img-container">
+                    <img src="" id="item-img" alt="Item Image" />
+                </div>
+                <h4 id="name"></h4>
+                <p id="description"></p>
+                <p id="stars"></p>
+                <p id="reviewText"></p>
+                <!-- Buttons -->
+                <div class="button-container">
+                    <button class="prev-btn">
+                        <span class="material-icons">arrow_back</span>
+                    </button>
+                    <button class="next-btn">
+                        <span class="material-icons">arrow_forward</span>
+                    </button>
+                    <button id="surprise-button">Surprise Me</button>
+                    <p id="current-item">Current Item: <span id="item-value">-</span></p>
+                    <script src="script.js"></script>
+
+                </div>
+                <!-- Random Button -->
+                <button class="random-btn">Random Item</button>
+            </article>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
